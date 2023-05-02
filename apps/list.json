@@ -1,0 +1,50 @@
+{
+  "version": "v0.1.0",
+  "tags": [
+    {
+      "key": "WebSite",
+      "name": "建站"
+    },
+    {
+      "key": "Server",
+      "name": "Web 服务器"
+    },
+    {
+      "key": "Runtime",
+      "name": "运行环境"
+    },
+    {
+      "key": "Database",
+      "name": "数据库"
+    },
+    {
+      "key": "Tool",
+      "name": "工具"
+    },
+    {
+      "key": "CI/CD",
+      "name": "CI/CD"
+    },
+    {
+      "key": "Local",
+      "name": "本地"
+    }
+  ],
+  "items": [
+    {
+      "key": "openresty",
+      "name": "OpenResty",
+      "tags": ["Server"],
+      "versions": ["1.19.3.2"],
+      "shortDescZh": "基于 NGINX 和 LuaJIT 的 Web 平台",
+      "shortDescEn": "High performance web platform based on Nginx and LuaJIT",
+      "type": "runtime",
+      "limit": 1,
+      "crossVersionUpdate": true,
+      "recommend": 3,
+      "website": "https://openresty.org",
+      "github": "https://github.com/openresty/openresty",
+      "document": "http://openresty.org/cn/getting-started.html"
+    }
+  ]
+}
